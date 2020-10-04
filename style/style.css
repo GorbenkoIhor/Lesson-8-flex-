@@ -1,0 +1,205 @@
+body {
+    background-color: #e2e7ec;
+    box-sizing: border-box;
+}
+main {
+    margin: 0 auto;
+}
+
+.content-head {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.block-car {
+    background-image: url(/img/Layer_8.png);
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 540px;
+}
+
+.block-car > h3 {
+    width: 132px;
+    height: 13px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 50% 0 0 5%;
+}
+
+.block-car > h1 {
+    width: 433px;
+    height: 60px;
+    color: #ffffff;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-left: 5%;
+}
+
+.block-woman {
+    width: 360px;
+    height: 540px;
+    margin: 0 0 1% 1%;
+    background-color: #ffffff;
+}
+
+.block-woman > h1 { 
+    width: 307px;
+    height: 78px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;  
+    letter-spacing: 0.55px;
+    text-align: center
+}
+.block-woman > h3 {
+    width: 133px;
+    height: 13px;
+    color: #818181;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    margin-left: 10%;
+}
+
+.content-down {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.girls {
+    width: 360px;
+    height: 540px;
+    margin: 0 0 1% 0;
+    background-color: #ffffff;
+}
+
+.girls > h1 {
+    width: 307px;
+    height: 78px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    margin-left: 10%;
+}
+
+.girls > h3 {
+    width: 129px;
+    height: 13px;
+    color: #818181;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    margin-left: 10%;
+}
+
+.legs {
+    width: 360px;
+    height: 540px;
+    margin: 0 0 1% 1%;
+    background-color: #ffffff;
+}
+
+.legs > h1 {
+    width: 300px;
+    height: 78px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    margin-left: 10%;
+    padding-top: 23px;
+}
+
+.city {
+    width: 360px;
+    height: 540px;
+    margin: 0 0 1% 1%;
+    background-color: #ffffff;  
+}
+
+.city > h1 {
+    width: 273px;
+    height: 78px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    margin-left: 10%;
+}
+
+.city > h3 {
+    width: 133px;
+height: 13px;
+color: #818181;
+font-family: "Hans Kendrick";
+font-size: 13px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: 0.33px;
+margin-left: 10%;
+}
+
+.face {
+    padding: 75px 278px 25px 28px;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading > h3 {
+    width: 164px;
+    height: 11px;
+    color: #99a5b0;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    padding-left: 1%;
+}
+
+.loading > img {
+    padding-top: 10px;
+    width: 30px;
+    height: 28px;
+}
+
